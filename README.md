@@ -35,24 +35,23 @@ Basically, when a browser loads a page it creates an object model of that page a
 
 A programming language can be used to access and modify this object model, and this action is called DOM manipulation. And we will do that with JavaScript.
 
-
-<pre>
-&lt; !-- Index.html file --&gt;
-&lt;html &gt;
-  &lt; head &gt;
-    &lt; title &gt; DOM Manipulation &lt;/title &gt;
-  &lt;/head &gt;
-  &lt;body &gt;
-    &lt;div id="division" &gt; &lt; h1 id="head" &gt; &lt;em &gt;DOM &lt; em &gt; manipulation &lt;/h1 &gt;
-      &lt; p class="text" id="middle" &gt;Tutorial &lt; /p &gt; &lt; p &gt;Sibling &lt; /p &gt;
-      &lt; p class="text" &gt; Medium Tutorial &lt;/p &gt;
-    &lt; div &gt;
-    &lt; p class="text" &gt; Out of the div &lt; /p &gt;
-    &lt;!-- Then we call the javascript file --&gt;
-    &lt; script src="manipulation.js" &gt; &lt; /script &gt;
-  &lt;/ body &gt;
-&lt; /html &gt;
-</pre>
+```
+<!-- Index.html file -->
+<html>
+  <head>
+    <title> DOM Manipulation </title>
+  </head>
+  <body>
+    <div id="division"> <h1 id="head"> <em>DOM <em> manipulation </h1>
+      <p class="text" id="middle">Tutorial </p> <p>Sibling </p>
+      <p class="text" > Medium Tutorial </p>
+    </div >
+    <p class="text" > Out of the div </p>
+    <!-- Then we call the javascript file -->
+    <script src="manipulation.js"> </script>
+  </body>
+</html>
+```
 
 <h4>Accessing the elements or single element</h4>
 
